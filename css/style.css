@@ -41,13 +41,5 @@ button {
     button {
         width: 150px;
         height: 45px;
-        margin: 10px;
-        border-radius: 0;
-        background: black;
-        color: white;
-        font-size: 16px;
-        font-family: verdana;
-        border: indianred;
-        cursor: pointer;
     }
 }
