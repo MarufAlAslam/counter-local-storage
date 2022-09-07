@@ -1,4 +1,10 @@
+// check local storage is Nan or not
+if (isNaN(localStorage.getItem('value'))) {
+    localStorage.setItem('value', 0);
+};
+
 // get value from localstorage and put that into the counter
+
 const value = document.getElementById('value');
 const localStorageValue = localStorage.getItem('value');
 value.innerText = localStorageValue;
